@@ -8,9 +8,12 @@ data/
 # build.sh scratch file
 .sources.txt
 
-# Eclipse
-.settings/
+# Eclipse workspace metadata.
+# .settings/org.eclipse.jdt.core.prefs IS committed on purpose: it pins the
+# compiler compliance level so the project imports the same way on any machine.
 .metadata/
+.settings/*
+!.settings/org.eclipse.jdt.core.prefs
 
 # macOS
 .DS_Store
