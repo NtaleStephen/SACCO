@@ -1,0 +1,19 @@
+# Compiled bytecode — regenerate with ./build.sh compile
+bin/
+*.class
+
+# Runtime output: receipts, binary ledger, serialized state, import files
+data/
+
+# build.sh scratch file
+.sources.txt
+
+# Eclipse
+.settings/
+.metadata/
+
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json*
